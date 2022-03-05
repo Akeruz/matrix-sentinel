@@ -1,0 +1,27 @@
+{
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAZQAAAAAAAJCGBgAAAAAAYGiGAAAAAABmZmUAAAAAkIZWVAkAAABWZlZCBQAAkJaGViIFAACVVmZWIgUAAJCWhlYiBQAAAFZmVkIFAAAAkIZWVAkAAAAAZmZlAAAAAABgaJYAAAAAAGBmCAAAAAAAAGYGAAAAAAAAZQAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ufo"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAALAAAAAAAAxSwAAAAAQgzLCwAAAAAAu7wAAAAAAADKDAAAAAAAwLzKAAAAAMC7u7sCAAAAaom4DAAAAABqibgMAAAAAMC7u7sCAAAAAMC8ygAAAAAAAMoMAAAAAAAAu7wAAAAAAEIMywsAAAAAAADFLAAAAAAAAAALAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "falconX"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHcAAAAAAABw93f3JQAAAHD3d/clAAAAAHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "shoot"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIUIAAAAAAAAAIJYAAAAAAAACAAAAAAAAIAAAAAAAo+IiAgAACBSiACPiCsCIlUoAJ+IWyUgUogAj4grAgACj4iICAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAglgAAAAAAIUIAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "misile"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
