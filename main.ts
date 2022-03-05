@@ -31,3 +31,8 @@ game.onUpdateInterval(1000, function () {
     alien.x = randint(0, scene.screenWidth())
     alien.setKind(SpriteKind.Enemy)
 })
+forever(function () {
+    if (info.score() == 66) {
+        game.over(true, effects.clouds)
+    }
+})

@@ -19,6 +19,21 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "misile"
     },
+    "image5": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage"
+    },
+    "image6": {
+        "data": "hwQQABAAAAAAALsAAAAAAACwzQsAAAAAUPvMvMwAAAAi9RHfCwAAAFC78fG9AAAAALD/Zt+7uwpQG4GW9rr6CyLVLZhp3d27UBuBlva6+gsAsP9m37u7ClC78fG9AAAAIvUR3wsAAABQ+8y8zAAAAACwzQsAAAAAAAC7AAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "1st boss"
+    },
+    "image7": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAABARAQAAABAAERG7CwAAAAARFESwCwAAEBFB7h4LABAQEevkFAsAABCxRO4QCwABALEREbsAAAAAEAuwAAAAAAAAsAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "power up"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
