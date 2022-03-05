@@ -1,3 +1,7 @@
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    sprites.destroyAllSpritesOfKind(SpriteKind.Enemy, effects.fire, 500)
+    music.beamUp.play()
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`shoot`, mySprite, 0, -50)
     music.pewPew.play()
@@ -14,6 +18,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 let alien: Sprite = null
 let misil: Sprite = null
+let enemyspeed = 0
 let projectile: Sprite = null
 let mySprite: Sprite = null
 effects.starField.startScreenEffect()
@@ -21,18 +26,22 @@ mySprite = sprites.create(assets.image`falconX`, SpriteKind.Player)
 mySprite.setPosition(79, 110)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.setStayInScreen(true)
+game.onUpdateInterval(5000, function () {
+    enemyspeed = 10
+    enemyspeed = Math.min(enemyspeed, 50)
+})
 game.onUpdateInterval(1000, function () {
-    misil = sprites.createProjectileFromSide(assets.image`misile`, 0, 50)
+    misil = sprites.createProjectileFromSide(assets.image`misile`, 0, 30)
     misil.x = randint(0, scene.screenWidth())
     misil.setKind(SpriteKind.Enemy)
 })
 game.onUpdateInterval(1000, function () {
-    alien = sprites.createProjectileFromSide(assets.image`ufo`, 0, 50)
+    alien = sprites.createProjectileFromSide(assets.image`ufo`, 0, 20)
     alien.x = randint(0, scene.screenWidth())
     alien.setKind(SpriteKind.Enemy)
 })
 forever(function () {
-    if (info.score() == 66) {
-        game.over(true, effects.clouds)
+    if (info.score() == 75) {
+        game.over(true, effects.confetti)
     }
 })

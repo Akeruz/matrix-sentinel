@@ -19,11 +19,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "misile"
     },
-    "image5": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "myImage"
-    },
     "image6": {
         "data": "hwQQABAAAAAAALsAAAAAAACwzQsAAAAAUPvMvMwAAAAi9RHfCwAAAFC78fG9AAAAALD/Zt+7uwpQG4GW9rr6CyLVLZhp3d27UBuBlva6+gsAsP9m37u7ClC78fG9AAAAIvUR3wsAAABQ+8y8zAAAAACwzQsAAAAAAAC7AAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -33,6 +28,21 @@
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAABARAQAAABAAERG7CwAAAAARFESwCwAAEBFB7h4LABAQEevkFAsAABCxRO4QCwABALEREbsAAAAAEAuwAAAAAAAAsAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "power up"
+    },
+    "image8": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAuwAAAAAAALDcCwAAAADMy8y/BQAAALD9EV8iAAAA2x8fuwWgu7v9Zv8LALCvq29pGLEFu93dlonSXSKwr6tvaRixBaC7u/1m/wsAAAAA2x8fuwUAAACw/RFfIgAAAMzLzL8FAAAAALDcCwAAAAAAALsAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "power_up_player"
+    },
+    "image9": {
+        "data": "hwQQABAAAAAAAAAAcAAAAAAAAAD3d/cFAAAAAPd39wUAAAAAcAAAAAAAAAAAAAAAAAAAAHcAAAAAAABw93f3JQAAAHD3d/clAAAAAHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA93f3BQAAAAD3d/cFAAAAAHAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "power_up_shoot"
+    },
+    "image5": {
+        "data": "hwQQABAAAAAQ/wAAABAfABAfHwAA8fAAAPHwEQD/HwAAEA//7v4BAAAA8d7d/v4AABDv3d0f/QAA8d/t3dHtDxAP390e8d0P8PDf7R7v3w8QER/R0d/dDwAA/t3d/v0AAADg393uDwAAAADw7/4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "mine"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
