@@ -7,8 +7,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     music.pewPew.play()
 })
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, otherSprite) {
-    otherSprite.destroy()
     sprite.destroy(effects.disintegrate, 500)
+    otherSprite.destroy()
     info.changeScoreBy(1)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
