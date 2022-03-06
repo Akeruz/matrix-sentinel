@@ -155,6 +155,25 @@ b c c 1 f f 8 2 8 f f 1 c c b .
 . 5 5 . . . 5 5 . . . . 5 5 . . 
 . . . . . . 2 2 . . . . . . . . 
 `;
+            case "image10":
+            case "alien_worm":return img`
+. . . . . . . f e d e . . f e . 
+. . e . f f e e d e . f f e . . 
+. . . e e e d d d d f e e e . . 
+. . f e d d e d d d d e f e e . 
+. . e d d f e e d d e f d e f e 
+. . e d d f 2 d d d d d d e d e 
+. . f e d d d e d e d d e f d e 
+. f e d d e 1 f d d e d d d e e 
+. f e e 1 . . 1 d e f d d e e f 
+. . 1 . . 1 e d d f e d e d d e 
+. . . . 1 e d d e f f f d e e e 
+. . . f e e e e f . . f e d e . 
+. . . . f f f . . . f e d e e . 
+. . . . . . . . . . f d e e d . 
+. . . . . . . . . f e e e . . . 
+. . . . . . . . e . . . . . . . 
+`;
             case "image5":
             case "mine":return img`
 . . . . . . . . . . . . . . . . 
@@ -162,17 +181,36 @@ b c c 1 f f 8 2 8 f f 1 c c b .
 f f 1 . . . 1 f . 1 . . . . . . 
 f 1 f 1 . 1 f . f 1 . . . . . . 
 . f . f 1 f f f f f e . . . . . 
-. 1 f . f e d d d 1 f e . . . . 
-. . 1 f e d d d d 1 d f . . . . 
-. . 1 f d d e d e d d d f . . . 
-. . . e d d d e e 1 d d f . . . 
-. . . e d d d 1 1 d d d e . . . 
+. 1 f . f e c c c 1 f e . . . . 
+. . 1 f e c c c c 1 d f . . . . 
+. . 1 f c c e c e d d d f . . . 
+. . . e c c c e e 1 d d f . . . 
+. . . e c c c 1 1 d d d e . . . 
 . 1 f e e f 1 1 f f e e e . . . 
-1 f f f f 1 d f e d f e f . . . 
-f . f 1 e d d d f d d f . . . . 
-1 f 1 . f f e d d d f . . . . . 
+1 f f f f 1 b f e b f e f . . . 
+f . f 1 e b b b f b b f . . . . 
+1 f 1 . f f e b b b f . . . . . 
 . . . . . . f f f f . . . . . . 
 . . . . . . . . . . . . . . . . 
+`;
+            case "image11":
+            case "alien_worm0":return img`
+. e f . . e d e f . . . . . . . 
+. . e f f . e d e e f f . e . . 
+. . e e e f d d d d e e e . . . 
+. e e f e d d d d e d d e f . . 
+e f e d f e d d e e f d d e . . 
+e d e d d d d d d 2 f d d e . . 
+e d f e d d e d e d d d e f . . 
+e e d d d e d d f 1 e d d e f . 
+f e e d d f e d 1 . . 1 e e f . 
+e d d e d e f d d e 1 . . 1 . . 
+e e e d f f f e d d e 1 . . . . 
+. e d e f . . f e e e e f . . . 
+. e e d e f . . . f f f . . . . 
+. d e e d f . . . . . . . . . . 
+. . . e e e f . . . . . . . . . 
+. . . . . . . e . . . . . . . . 
 `;
         }
         return null;
