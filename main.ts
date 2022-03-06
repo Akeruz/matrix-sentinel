@@ -19,9 +19,10 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     scene.cameraShake(4, 500)
     info.changeLifeBy(-1)
 })
+let enemyspeed = 0
 let alien: Sprite = null
 let misil: Sprite = null
-let enemyspeed = 0
+let Alien_worm: Sprite = null
 let projectile2: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
@@ -30,9 +31,10 @@ mySprite = sprites.create(assets.image`falconX`, SpriteKind.Player)
 mySprite.setPosition(79, 110)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.setStayInScreen(true)
-game.onUpdateInterval(5000, function () {
-    enemyspeed = 10
-    enemyspeed = Math.min(enemyspeed, 50)
+game.onUpdateInterval(9000, function () {
+    Alien_worm = sprites.createProjectileFromSide(assets.image`alien_worm0`, 7, 35)
+    Alien_worm.x = randint(0, scene.screenWidth())
+    Alien_worm.setKind(SpriteKind.Enemy)
 })
 game.onUpdateInterval(1000, function () {
     misil = sprites.createProjectileFromSide(assets.image`misile`, 0, 30)
@@ -43,7 +45,7 @@ forever(function () {
     music.playMelody("B - A - F E F D ", 214)
 })
 forever(function () {
-    if (info.score() == 111) {
+    if (info.score() == 200) {
         game.over(true, effects.confetti)
     }
 })
@@ -51,4 +53,8 @@ game.onUpdateInterval(6000, function () {
     alien = sprites.createProjectileFromSide(assets.image`ufo`, 0, 20)
     alien.x = randint(0, scene.screenWidth())
     alien.setKind(SpriteKind.Enemy)
+})
+game.onUpdateInterval(100, function () {
+    enemyspeed = 10
+    enemyspeed = Math.min(enemyspeed, 50)
 })

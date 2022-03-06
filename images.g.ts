@@ -193,25 +193,6 @@ f . f 1 e b b b f b b f . . . .
 . . . . . . f f f f . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image11":
-            case "alien_worm0":return img`
-. e f . . e d e f . . . . . . . 
-. . e f f . e d e e f f . e . . 
-. . e e e f d d d d e e e . . . 
-. e e f e d d d d e d d e f . . 
-e f e d f e d d e e f d d e . . 
-e d e d d d d d d 2 f d d e . . 
-e d f e d d e d e d d d e f . . 
-e e d d d e d d f 1 e d d e f . 
-f e e d d f e d 1 . . 1 e e f . 
-e d d e d e f d d e 1 . . 1 . . 
-e e e d f f f e d d e 1 . . . . 
-. e d e f . . f e e e e f . . . 
-. e e d e f . . . f f f . . . . 
-. d e e d f . . . . . . . . . . 
-. . . e e e f . . . . . . . . . 
-. . . . . . . e . . . . . . . . 
-`;
             case "image12":
             case "bomb":return img`
 . . . . . . . . . . . . . . . . 
@@ -230,6 +211,25 @@ e e e d f f f e d d e 1 . . . .
 . . . . . . . d d . . . . . . . 
 . . . . . . . 5 5 . . . . . . . 
 . . . . . . . 2 2 . . . . . . . 
+`;
+            case "image11":
+            case "alien_worm0":return img`
+. e f . . e d e f . . . . . . . 
+. . e f f . e d e e f f . e . . 
+. . e e e f d d d d e e e . . . 
+. e e f e d d d d e d d e f . . 
+e f e d f e d d e e f d d e . . 
+e d e d d d d d d 2 f d d e . . 
+e d f e d d e d e d d d e f . . 
+e e d d d e d d f 1 e d d e f . 
+f e e d d f e d 1 . . 1 e e f . 
+e d d e d e f d d e 1 . . 1 . . 
+e e e d f f f e d d e 1 . . . . 
+. e d e f . . f e e e e f . . . 
+. e e d e f . . . f f f . . . . 
+. d e e d f . . . . . . . . . . 
+. . . e e e f . . . . . . . . . 
+. . . . . . . e . . . . . . . . 
 `;
         }
         return null;

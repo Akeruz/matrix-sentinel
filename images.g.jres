@@ -49,15 +49,15 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "mine"
     },
-    "image11": {
-        "data": "hwQQABAAAAAAAO7u7w4AAA7g3+3e7t4A7+7u397e7gDw/t3e7e3tDvDu393d/94ODt/e7e8P/w7t3d3e/g8AD97d3d3d/gDg793e/tHtAADg7S4d4O0PAPDe/+0Q7g8A8N7d3QHhDwAA7t3eDvAAAODw7u8eAAAAAAAA8A8AAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "alien_worm0"
-    },
     "image12": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzNzMAAAAAMDMHMwMAAAAzMwczNolAACtyhyq3SUAAN+qGtoPAAAA8N3B/QAAAAAA//APAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "bomb"
+    },
+    "image11": {
+        "data": "hwQQABAAAAAAAO7u7w4AAA7g3+3e7t4A7+7u397e7gDw/t3e7e3tDvDu393d/94ODt/e7e8P/w7t3d3e/g8AD97d3d3d/gDg793e/tHtAADg7S4d4O0PAPDe/+0Q7g8A8N7d3QHhDwAA7t3eDvAAAODw7u8eAAAAAAAA8A8AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "alien_worm0"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
