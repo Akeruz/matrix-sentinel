@@ -41,6 +41,11 @@ game.onUpdateInterval(1000, function () {
     misil.x = randint(0, scene.screenWidth())
     misil.setKind(SpriteKind.Enemy)
 })
+game.onUpdateInterval(4000, function () {
+    alien = sprites.createProjectileFromSide(assets.image`ufo`, 20, 10)
+    alien.x = randint(0, scene.screenWidth())
+    alien.setKind(SpriteKind.Enemy)
+})
 forever(function () {
     music.playMelody("B - A - F E F D ", 214)
 })
@@ -48,11 +53,6 @@ forever(function () {
     if (info.score() == 200) {
         game.over(true, effects.confetti)
     }
-})
-game.onUpdateInterval(6000, function () {
-    alien = sprites.createProjectileFromSide(assets.image`ufo`, 0, 20)
-    alien.x = randint(0, scene.screenWidth())
-    alien.setKind(SpriteKind.Enemy)
 })
 game.onUpdateInterval(100, function () {
     enemyspeed = 10
