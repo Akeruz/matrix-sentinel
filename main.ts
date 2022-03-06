@@ -1,7 +1,3 @@
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    sprites.destroyAllSpritesOfKind(SpriteKind.Enemy, effects.fire, 500)
-    music.beamUp.play()
-})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`shoot`, mySprite, 0, -50)
     music.pewPew.play()
@@ -11,6 +7,12 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, oth
     otherSprite.destroy()
     info.changeScoreBy(1)
 })
+controller.B.onEvent(ControllerButtonEvent.Released, function () {
+    projectile2 = sprites.createProjectileFromSprite(assets.image`bomb`, mySprite, 0, -50)
+    projectile2.ax = 100
+    sprites.destroyAllSpritesOfKind(SpriteKind.Enemy, effects.fire, 500)
+    music.beamUp.play()
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy(effects.fire, 500)
     scene.cameraShake(4, 500)
@@ -19,6 +21,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let alien: Sprite = null
 let misil: Sprite = null
 let enemyspeed = 0
+let projectile2: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
 effects.starField.startScreenEffect()
@@ -41,7 +44,10 @@ game.onUpdateInterval(1000, function () {
     alien.setKind(SpriteKind.Enemy)
 })
 forever(function () {
-    if (info.score() == 75) {
+    music.playMelody("B - A - F E F D ", 214)
+})
+forever(function () {
+    if (info.score() == 111) {
         game.over(true, effects.confetti)
     }
 })
