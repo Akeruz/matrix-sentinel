@@ -1,5 +1,11 @@
 function alienhead () {
     AlienHead = sprites.create(assets.image`alien_head`, SpriteKind.Player)
+    animation.runImageAnimation(
+    AlienHead,
+    assets.animation`animated alienhead`,
+    200,
+    true
+    )
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`shoot`, mySprite, 0, -50)
