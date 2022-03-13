@@ -56,8 +56,8 @@ forever(function () {
     music.playMelody("B - A - F E F D ", 214)
 })
 forever(function () {
-    if (info.score() == 500) {
-        game.over(true, effects.confetti)
+    if (info.score() == 1500) {
+        game.over(true, effects.smiles)
     }
 })
 game.onUpdateInterval(100, function () {
