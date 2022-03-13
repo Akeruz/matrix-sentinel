@@ -42,7 +42,7 @@ controller.moveSprite(mySprite, 100, 0)
 mySprite.setStayInScreen(true)
 info.setLife(2)
 game.onUpdateInterval(1000, function () {
-    misil = sprites.createProjectileFromSide(assets.image`misile`, 0, 30)
+    misil = sprites.createProjectileFromSide(assets.image`misile`, 0, 60)
     misil.x = randint(0, scene.screenWidth())
     misil.setKind(SpriteKind.Enemy)
 })
